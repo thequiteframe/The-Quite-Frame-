@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Quite Frame | Photography</title>
+<meta name="description" content="A personal photography portfolio capturing the beauty of everyday moments in Delhi.">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:#faf9f6;color:#242424;font-family:Arial,sans-serif}
+header{padding:25px 7%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #ddd}
+.logo{font-family:Georgia,serif;font-size:25px;letter-spacing:2px}
+nav a{margin-left:22px;text-decoration:none;color:#333;font-size:13px}
+.hero{min-height:85vh;padding:70px 8%;display:flex;flex-direction:column;justify-content:center;background:#eeece7}
+.hero small{letter-spacing:4px;text-transform:uppercase;color:#777}
+.hero h1{font:clamp(55px,10vw,115px) Georgia,serif;line-height:1.05;margin:25px 0}
+.hero p{max-width:470px;color:#666;line-height:1.8}
+.btn{display:inline-block;margin-top:28px;padding:14px 25px;background:#242424;color:white;text-decoration:none;font-size:12px;letter-spacing:2px}
+section{padding:90px 8%}
+.heading{font:42px Georgia,serif;margin-bottom:15px}
+.sub{color:#888;margin-bottom:40px;line-height:1.7}
+.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.photo img{width:100%;height:330px;object-fit:cover;display:block}
+.photo p{padding:12px 0;color:#666;font-size:13px}
+.about{background:#eeece7}
+.about p{max-width:650px;line-height:2;color:#555}
+.contact{text-align:center}
+.contact p{line-height:2;color:#666}
+footer{text-align:center;padding:25px;background:#242424;color:#ddd;font-size:12px;letter-spacing:1px}
+@media(max-width:600px){
+header{padding:20px 5%;flex-wrap:wrap;gap:15px}
+nav a{margin-left:10px;font-size:11px}
+section{padding:65px 6%}
+.gallery{grid-template-columns:1fr}
+.photo img{height:280px}
+.hero{min-height:70vh}
+}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">THE QUITE FRAME.</div>
+<nav>
+<a href="#home">HOME</a>
+<a href="#gallery">GALLERY</a>
+<a href="#about">ABOUT</a>
+<a href="#contact">CONTACT</a>
+</nav>
+</header>
+
+<main>
+<div class="hero" id="home">
+<small>Photography • Delhi, India</small>
+<h1>Every Frame<br>Has A Story.</h1>
+<p>Finding beauty in ordinary moments. A personal collection of streets, places, light and little details that make life beautiful.</p>
+<a class="btn" href="#gallery">EXPLORE MY WORK</a>
+</div>
+
+<section id="gallery">
+<h2 class="heading">Selected Frames.</h2>
+<p class="sub">A little collection of moments captured through my lens.</p>
+<div class="gallery">
+<div class="photo">
+<img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=900" alt="City at night">
+<p>01 — City Lights</p>
+</div>
+<div class="photo">
+<img src="https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=900" alt="Urban street">
+<p>02 — Urban Stories</p>
+</div>
+<div class="photo">
+<img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=900" alt="City architecture">
+<p>03 — Architecture</p>
+</div>
+<div class="photo">
+<img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=900" alt="Street photography">
+<p>04 — Everyday Moments</p>
+</div>
+</div>
+</section>
+
+<section class="about" id="about">
+<h2 class="heading">Behind The Lens.</h2>
+<p>I'm Priyanshu, a beginner photographer from Delhi, India. I love capturing everyday life, city streets, architecture and the little details that often go unnoticed. The Quite Frame is my space to explore photography, learn and tell stories through pictures.</p>
+</section>
+
+<section class="contact" id="contact">
+<h2 class="heading">Let's Connect.</h2>
+<p>Thank you for visiting my little corner of photography.<br>For collaborations and conversations:</p>
+<a class="btn" href="https://www.instagram.com/" target="_blank">INSTAGRAM</a>
+</section>
+</main>
+
+<footer>THE QUITE FRAME. © 2026 — ALL RIGHTS RESERVED</footer>
+</body>
+</html>
